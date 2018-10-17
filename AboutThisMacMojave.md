@@ -14,6 +14,8 @@ The following tools will be required:
 
 Create two folders on your desktop or in another easily accessible directory.  Name one of these folders 'Originals' and the other 'Modified'.
 
+# System Image Replacement
+
 We will first be replacing the system image, which is the simplest of these modifications.  Download ThemeEngine from the list of resources above and place it in your 'Applications' folder.
 
 Navigate to '/Applications/Utilities', right-click the 'System Information' utility and choose 'Show Package Contents'.  From here, navigate to 'Contents/Resources' and locate the file named 'Assets.car'.  Create two duplicates of this file, placing one in your 'Originals' folder and the other in your 'Modified' folder.
