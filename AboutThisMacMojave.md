@@ -131,6 +131,8 @@ The 'macOS Mojave" text has now been changed and can be seen in the 'About This 
 
 ## Modifying The Displayed SMBIOS Model
 
+Next, we will edit the Mac model displayed for our SMBIOS. Along with the system logo replacement, this is one of the simplest modifications explained in this document.
+
 Open a Finder window, select 'Go' from the menu bar and choose 'Go to Folder'. 
 Enter '~/Library/Preferences' and click 'Go'. Locate the file named 'com.apple.SystemProfiler.plist'.  Create two duplicates of this file, placing one of them in your 'Originals' folder and the other in your 'Modified' folder.
 
