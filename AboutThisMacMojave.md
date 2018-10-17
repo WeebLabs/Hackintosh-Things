@@ -1,4 +1,4 @@
-# <p align='center'>How To Edit 'About This Mac' (Mojave)</p>
+# <p align='center'>How  To  Edit  'About This Mac' (Mojave)</p>
 
 <p align="center">
   <img src="https://i.imgur.com/Rx0YkPp.png" title="hover text">
