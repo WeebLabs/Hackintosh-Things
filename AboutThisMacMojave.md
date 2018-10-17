@@ -122,6 +122,8 @@ Return to the 'Find' field and delete any previous search terms.  Type 'macOS' a
 
 To the immediate left of the 'macOS' string, the 'OS_VERSION_BUILD' string should be visible.  If this is the case, then we have confirmed that we are viewing the correct string.  We must now modify this string such that it matches the first characters of the 'macOS Mojave' string which was edited earlier.
 
-When both strings have been edited to your satisfaction, choose 'File' from the menu bar and click 'Save'.  Return to '/Applications/Utilities/System Information.app/Contents/MacOS' and copy the 'System Information' file from your 'Modified' folder into this directory.  Enter your password when prompted and then click 'Replace'.
+When both strings have been edited to your satisfaction, choose 'File' from the menu bar and click 'Save'.  
+
+Return to '/Applications/Utilities/System Information.app/Contents/MacOS' and copy the 'System Information' file from your 'Modified' folder into this directory.  Enter your password when prompted and then click 'Replace'.
 
 The 'macOS Mojave" text has now been changed and can be seen in the 'About This Mac' window.
