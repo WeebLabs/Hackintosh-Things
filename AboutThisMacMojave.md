@@ -21,7 +21,7 @@ You must create two folders on your desktop or in another easily accessible dire
 
 We will first be replacing the system logo, which is the simplest of these modifications.  Download ThemeEngine from the list of resources above and place it in your 'Applications' folder.
 
-Navigate to '/Applications/Utilities', right-click the 'System Information' utility and choose 'Show Package Contents'.  From here, navigate to 'Contents/Resources' and locate the file named 'Assets.car'.  Create two duplicates of this file, placing one in your 'Originals' folder and the other in your 'Modified' folder.
+Open a Finder window, select 'Go' from the menu bar and click 'Go to Folder...'. Enter '/Applications/Utilities/System Information/Contents/Resources' and click 'Go'. Locate the file named 'Assets.car'.  Create two duplicates of this file, placing one in your 'Originals' folder and the other in your 'Modified' folder.
 
 Launch ThemeEngine, click the 'File' menu and choose 'Open'.  Navigate to your 'Modified' folder and open 'Assets.car'. 
 
@@ -38,3 +38,9 @@ To replace the system logo, simply drag and drop a suitable image onto one of th
 <p align="center">
   <img src="https://i.imgur.com/9jGMNi5.png" title="hover text">
 </p>
+
+The image chosen should be a perfect square, which is why an image editor is recommended.  Resolutions such as 128x128 and 512x512 are ideal.
+
+When all desired changes have been made, open the 'File' menu and choose 'Save'.
+
+Return to '/Applications/Utilities/System Information/Contents/Resources' and copy the 'Assets.car' file from your 'Modified' folder into this directory.
