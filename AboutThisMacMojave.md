@@ -51,7 +51,7 @@ Return to '/Applications/Utilities/System Information/Contents/Resources' and co
 
 The system logo has now been changed and can be seen in the 'About This Mac' window.
 
-## Edit 'macOS Mojave' Text
+## Editing The 'macOS Mojave' Text
 
 We will now edit the 'macOS Mojave' text.  This is the most sophisticated of the modifications described in this document but should require only a few minutes to complete.
 
@@ -127,3 +127,6 @@ When both strings have been edited to your satisfaction, choose 'File' from the 
 Return to '/Applications/Utilities/System Information.app/Contents/MacOS' and copy the 'System Information' file from your 'Modified' folder into this directory.  Enter your password when prompted and then click 'Replace'.
 
 The 'macOS Mojave" text has now been changed and can be seen in the 'About This Mac' window.
+
+
+## Modifying The System Model
