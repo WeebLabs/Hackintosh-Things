@@ -14,7 +14,7 @@ The following tools will be required:
 - <a href="https://github.com/alexzielenski/ThemeEngine/releases/download/1.0.0(111)/ThemeEngine_111.zip">ThemeEngine</a>
 - Image Editor (Optional but recommended)
 
-Create two folders on your desktop or in another easily accessible directory.  Name one of these folders 'Originals' and the other 'Modified'.
+You must create two folders on your desktop or in another easily accessible directory.  Name one of them 'Originals' and the other 'Modified'.  These folders will be utilized throughout this document.
 
 ## System Image Replacement
 
