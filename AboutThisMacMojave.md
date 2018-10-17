@@ -41,7 +41,7 @@ To replace the system logo, simply drag and drop a suitable PNG image file onto 
   <img src="https://i.imgur.com/9jGMNi5.png" title="hover text">
 </p>
 
-The image chosen should be a perfect square, which is why an image editor is recommended.  Resolutions such as 128x128 and 512x512 are ideal.
+The image chosen should be a perfect square, which is why an image editor is recommended.  Resolutions such as 128x128 and 512x512 are ideal.  The alpha channel is fully supported.
 
 When all desired changes have been made, open the 'File' menu and choose 'Save'.
 
