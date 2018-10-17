@@ -17,7 +17,7 @@ The following tools will be required:
 
 You must create two folders on your desktop or in another easily accessible directory.  Name one of them 'Originals' and the other 'Modified'.  These folders will be utilized throughout this document.
 
-All system paths provided must be entered with quotations marks omitted.
+All system paths provided must be entered with quotation marks omitted.
 
 ## System Logo Replacement
 
