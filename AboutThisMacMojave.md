@@ -19,6 +19,8 @@ You must create two folders on your desktop or in another easily accessible dire
 
 All system paths provided must be entered with quotation marks omitted.
 
+In the event that you encounter a term which you do not understand, please do not panic.  It will be explained shortly afterwards.
+
 ## System Logo Replacement
 
 We will first be replacing the system logo, which is the simplest of these modifications.  Download ThemeEngine from the list of resources above and place it in your 'Applications' folder.
@@ -76,3 +78,21 @@ Launch the iHex editor, select 'File' from the menu bar and then choose 'Open'. 
 
   <img src="https://i.imgur.com/heycoCO.png" title="hover text">
 </p>
+
+You will be presented with two panels of text.  The panel on the left is a hexidecimal representation of this file, while the panel on the right is an ASCI representation.  
+
+On the status bar at the bottom of the window, you will see a counter.  This counter tells us exactly which byte of the file we are currently viewing, which will henceforth be referred to as an 'offset'.  At the moment, the counter should read '0 out of 600384 bytes', as we are viewing the very beginning of the file.
+
+There are two strings within this file which we can modify and it is important to understand the roles fulfilled by each of them.
+
+The first string of interest to us is 'macOS Mojave' and it is located at offset '600384'.  This is the string which will be printed to the 'About This Mac' window.
+
+The second string of importance is 'macOS' and it is located at offset '342046'.  This string is responsible for determining which characters in the later 'macOS Mojave' string are printed using a bold font.  It must be edited to match the characters in the beginning of the 'macOS Mojave' string. In other words if the 'macOS Mojave" string is changed to 'nepOS Hyper', then this string must become 'nepOS'.
+
+If the 'nepOS' string does not match the beginning of the later 'macOS Mojave' string, then all characters in that string will be printed using a bold font as shown below.
+
+<p align="center">
+
+  <img src="https://i.imgur.com/WzHnU3x.png" title="hover text">
+</p>
+
