@@ -26,3 +26,7 @@ Navigate to '/Applications/Utilities', right-click the 'System Information' util
 Launch ThemeEngine, click the 'File' menu and choose 'Open'.  Navigate to your 'Modified' folder and open 'Assets.car'. 
 
 From the sidebar on the left, select 'SystemLogo'.  You will be presented with two pairs of images.
+
+<p align="center">
+  <img src="https://i.imgur.com/LkmF998.png" title="hover text">
+</p>
