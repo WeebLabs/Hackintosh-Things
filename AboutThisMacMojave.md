@@ -17,6 +17,8 @@ The following tools will be required:
 
 You must create two folders on your desktop or in another easily accessible directory.  Name one of them 'Originals' and the other 'Modified'.  These folders will be utilized throughout this document.
 
+All system paths provided must be entered with quotations marks omitted.
+
 ## System Logo Replacement
 
 We will first be replacing the system logo, which is the simplest of these modifications.  Download ThemeEngine from the list of resources above and place it in your 'Applications' folder.
