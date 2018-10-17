@@ -33,4 +33,8 @@ From the sidebar on the left, select 'SystemLogo' and you will be presented with
 
 Each of these pairs is loaded when the corresponding light or dark system theme is active.  Within each pair, there is a standard and a doubled resolution version of the image.  These can be differentiated by clicking a given thumbnail and noting the 'Scale' value under 'Attributes' in the sidebar on the right.
 
-To replace the system logo, simply drag and drop a suitable image onto one of the thumbnails
+To replace the system logo, simply drag and drop a suitable image onto one of the thumbnails.
+
+<p align="center">
+  <img src="https://i.imgur.com/9jGMNi5.png" title="hover text">
+</p>
