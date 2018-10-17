@@ -63,3 +63,9 @@ Launch the Terminal and navigate to your 'Modified' folder.  If you do not know 
 <p align="center">
   <img src="https://i.imgur.com/SU81dKF.png" title="hover text">
 </p>
+
+You must now execute the command './optool strip -w -t System\ Information'.  This will remove the code signature from the executable, which is necessary, as we will now be modifying it.  The command should return the following feedback.
+
+<p align="center">
+  <img src="https://i.imgur.com/pC4wIJm.png" title="hover text">
+</p>
