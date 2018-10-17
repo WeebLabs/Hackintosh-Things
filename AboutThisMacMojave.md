@@ -53,7 +53,7 @@ The system logo has now been changed and can be seen in the 'About This Mac' win
 
 We will now edit the 'macOS Mojave' text.  This is the most sophisticated of the modifications described in this document but should require only a few minutes to complete.
 
-Download the 'optool' utility from the list of resources above and move it to your 'Modified' folder.
+Download the Optool utility and iHex editor from the list of resources above.  Move the Optool utility to your 'Modified' folder and the iHex editor to your 'Applications' folder
 
 Open a Finder window, select 'Go' from the menu bar and choose 'Go to Folder'. 
 Enter '/Applications/Utilities/System Information.app/Contents/MacOS' and click 'Go'. Locate the file named 'System Information'.  Create two duplicates of this file, placing one of them in your 'Originals' folder and the other in your 'Modified' folder.
@@ -69,3 +69,5 @@ You must now execute the command './optool strip -w -t System\ Information'.  Th
 <p align="center">
   <img src="https://i.imgur.com/pC4wIJm.png" title="hover text">
 </p>
+
+Launch the iHex editor, select 'File' from the menu bar and then choose 'Open'.  Navigate to your 'Modiifed' folder and open the 'System Information' file.
