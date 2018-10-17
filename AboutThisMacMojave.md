@@ -67,7 +67,12 @@ Launch the Terminal and navigate to your 'Modified' folder.  If you do not know 
 You must now execute the command './optool strip -w -t System\ Information'.  This will remove the code signature from the executable, which is necessary, as we will now be modifying it.  The command should return the following feedback.
 
 <p align="center">
+
   <img src="https://i.imgur.com/pC4wIJm.png" title="hover text">
 </p>
+Launch the iHex editor, select 'File' from the menu bar and then choose 'Open'.  Navigate to your 'Modified' folder and open the 'System Information' file.
 
-Launch the iHex editor, select 'File' from the menu bar and then choose 'Open'.  Navigate to your 'Modiifed' folder and open the 'System Information' file.
+<p align="center">
+
+  <img src="https://i.imgur.com/heycoCO.png" title="hover text">
+</p>
