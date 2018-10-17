@@ -89,7 +89,7 @@ The first string of interest to us is 'macOS Mojave' and it is located at offset
 
 The second string of importance is 'macOS' and it is located at offset '342046'.  This string is responsible for determining which characters in the later 'macOS Mojave' string are printed using a bold font.  It must be edited to match the characters in the beginning of the 'macOS Mojave' string. In other words if the 'macOS Mojave" string is changed to 'nepOS Hyper', then this string must become 'nepOS'.
 
-If the 'nepOS' string does not match the beginning of the later 'macOS Mojave' string, then all characters in that string will be printed using a bold font as shown below.
+If the 'nepOS' string does not match the beginning of the later 'nepOS Hyper' string, then all of the characters in that string will be printed using a bold font as shown below.
 
 <p align="center">
 
