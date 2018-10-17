@@ -17,11 +17,11 @@ The following tools will be required:
 
 You must create two folders on your desktop or in another easily accessible directory.  Name one of them 'Originals' and the other 'Modified'.  These folders will be utilized throughout this document.
 
-## System Image Replacement
+## System Logo Replacement
 
 We will first be replacing the system logo, which is the simplest of these modifications.  Download ThemeEngine from the list of resources above and place it in your 'Applications' folder.
 
-Open a Finder window, select 'Go' from the menu bar and click 'Go to Folder...'. Enter '/Applications/Utilities/System Information/Contents/Resources' and click 'Go'. Locate the file named 'Assets.car'.  Create two duplicates of this file, placing one in your 'Originals' folder and the other in your 'Modified' folder.
+Open a Finder window, select 'Go' from the menu bar and choose 'Go to Folder...'. Enter '/Applications/Utilities/System Information/Contents/Resources' and click 'Go'. Locate the file named 'Assets.car'.  Create two duplicates of this file, placing one in your 'Originals' folder and the other in your 'Modified' folder.
 
 Launch ThemeEngine, click the 'File' menu and choose 'Open'.  Navigate to your 'Modified' folder and open 'Assets.car'. 
 
