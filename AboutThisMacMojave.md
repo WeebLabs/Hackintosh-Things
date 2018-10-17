@@ -46,3 +46,5 @@ When all desired changes have been made, open the 'File' menu and choose 'Save'.
 Return to '/Applications/Utilities/System Information/Contents/Resources' and copy the 'Assets.car' file from your 'Modified' folder into this directory.  Enter your password when prompted and then click 'Replace'.
 
 The system logo has now been changed and can be seen in the 'About This Mac' window.
+
+## Edit 'macOS Mojave' Text
