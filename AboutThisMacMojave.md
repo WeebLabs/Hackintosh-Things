@@ -7,7 +7,7 @@
 In this brief guide, I will explain how to perform four modifications to the 'About This Mac' panel under Mac OS X 10.14 Mojave.  You will learn how to replace the system image, edit the "macOS Mojave" text, change the model displayed for your SMBIOS and rename your CPU.
 
 The following tools will be required:
-- optool
+- <a href="https://github.com/alexzielenski/optool/releases/download/0.1/optool.zip">optool</a>
 - iHex
 - ThemeEngine
 - Image Editor (Optional but recommended)
