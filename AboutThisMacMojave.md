@@ -12,7 +12,7 @@ The following tools will be required:
 - <a href="https://github.com/alexzielenski/optool/releases/download/0.1/optool.zip">optool</a>
 - <a href="https://itunes.apple.com/ie/app/ihex-hex-editor/id909566003?mt=12">iHex</a>
 - <a href="https://github.com/alexzielenski/ThemeEngine/releases/download/1.0.0(111)/ThemeEngine_111.zip">ThemeEngine</a>
-- Image Editor (Optional but recommended)
+- <a href="https://affinity.store/get/photo/trial/mac/">Image Editor (Optional but recommended)</a>
 
 You must create two folders on your desktop or in another easily accessible directory.  Name one of them 'Originals' and the other 'Modified'.  These folders will be utilized throughout this document.
 
