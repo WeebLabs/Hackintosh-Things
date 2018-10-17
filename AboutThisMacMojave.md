@@ -129,7 +129,7 @@ Return to '/Applications/Utilities/System Information.app/Contents/MacOS' and co
 The 'macOS Mojave" text has now been changed and can be seen in the 'About This Mac' window.
 
 
-## Modifying The Displayed SMBIOS Model
+## Editing The Displayed SMBIOS Model
 
 Next, we will edit the Mac model displayed for our SMBIOS. Along with the system logo replacement, this is one of the simplest modifications explained in this document.
 
@@ -149,3 +149,5 @@ When all desired changes have been made, select the 'File' menu and choose 'Save
 Return to '~/Library/Preferences' and copy the 'com.apple.SystemProfiler.plist' file from your 'Modified' folder into this directory.  Enter your password when prompted and then click 'Replace'.
 
 The displayed SMBIOS model has now been changed and can be seen in the 'About This Mac' window.
+
+## Editing The Displayed CPU Model
