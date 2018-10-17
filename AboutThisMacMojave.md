@@ -79,11 +79,11 @@ Launch the iHex editor, select 'File' from the menu bar and then choose 'Open'. 
   <img src="https://i.imgur.com/heycoCO.png" title="hover text">
 </p>
 
-You will be presented with two panels of text.  The panel on the left is a hexidecimal representation of this file, while the panel on the right is an ASCI representation.  
+You will be presented with two panels of text.  The panel on the left is a hexidecimal representation of this file, while the panel on the right is an ASCII representation.  
 
-On the status bar at the bottom of the window, you will see a counter.  This counter tells us exactly which byte of the file we are currently viewing, which will henceforth be referred to as an 'offset'.  At the moment, the counter should read '0 out of 600384 bytes', as we are viewing the very beginning of the file.
+On the status bar at the bottom of the window, you will see a counter.  This counter tells us exactly which byte of the file we are currently viewing and will henceforth be referred to as the 'offset'.  At the moment, the counter should read '0 out of 600384 bytes', as we are viewing the very beginning of the file.
 
-There are two strings within this file which we can modify and it is important to understand the roles fulfilled by each of them.
+There are two strings within this file that we can modify and it is important to understand the roles fulfilled by each of them.
 
 The first string of interest to us is 'macOS Mojave' and it is located at offset '346037'.  This is the string which will be printed to the 'About This Mac' window.
 
@@ -96,9 +96,9 @@ If the 'nepOS' string does not match the beginning of the later 'nepOS Hyper' st
   <img src="https://i.imgur.com/WzHnU3x.png" title="hover text">
 </p>
 
-Finally, it is important to understand that all of the strings in this file are of a fixed length, which includes the spaces.  The 'macOS Mojave" string is twelve charatcers in length and can be made shorter but not longer.  This is because making additional space would shift all of the offsets which follow, meaning that the information is no longer where the system expects it to be.  The result would be a broken file.
+Finally, it is important to understand that all of the strings in this file are of a fixed length and spaces count towards this length.  The 'macOS Mojave" string is twelve charatcers in length and can be made shorter but not longer.  This is because making additional space would shift all of the offsets which follow, meaning that the information would no longer where the system expects it to be.  The result would be a broken file.
 
-Shortening the strings does not introduce the same problem, as we can simply replace the unwanted characters with spaces.
+Shortening the strings does not introduce the same problem, as we can simply replace any excess characters with spaces.
 
 Now that we understand the fundamental principles, it is time to perform the modification.
 
