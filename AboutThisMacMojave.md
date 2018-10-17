@@ -9,6 +9,6 @@ In this brief guide, I will explain how to perform four modifications to the 'Ab
 The following tools will be required:
 - <a href="https://github.com/alexzielenski/optool/releases/download/0.1/optool.zip">optool</a>
 - <a href="https://itunes.apple.com/ie/app/ihex-hex-editor/id909566003?mt=12">iHex</a>
-- ThemeEngine
+- <a href="https://github.com/alexzielenski/ThemeEngine/releases/download/1.0.0(111)/ThemeEngine_111.zip">ThemeEngine</a>
 - Image Editor (Optional but recommended)
 
