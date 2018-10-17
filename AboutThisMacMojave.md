@@ -91,8 +91,13 @@ The second string of importance is 'macOS' and it is located at offset '342046'.
 
 If the 'nepOS' string does not match the beginning of the later 'nepOS Hyper' string, then all of the characters in that string will be printed using a bold font as shown below.
 
+Finally, it is important to understand that all of the strings in this file are of a fixed length, which includes the spaces.  The 'macOS Mojave" string is twelve charatcers in length and can be made shorter but not longer.  This is because making additional space would shift all of the offsets which follow, meaning that the information is no longer where the system expects it to be.  The result would be a broken file.
+
+Shortening the strings does not introduce the same problem, as we can simply replace the unwanted characters with spaces.
+
 <p align="center">
 
   <img src="https://i.imgur.com/WzHnU3x.png" title="hover text">
 </p>
 
+Now that we understand the fundamental principles, it is time to perform the modification.
