@@ -101,3 +101,12 @@ Shortening the strings does not introduce the same problem, as we can simply rep
 </p>
 
 Now that we understand the fundamental principles, it is time to perform the modification.
+
+Select 'Edit' from the menu bar, choose the 'Find' submenu and then click 'Find...'.  Ensure that the 'Text' button in the top left corner of the window is selected.
+
+In the 'Find' field, type 'macOS Mojave" and then press return.  The string should be found at offset '346037' (or similar) and highlighted in the panel on the right.  To the left of the string, you should see '10.12' and '10.14'.  If so, then the correct string has been found.
+
+<p align="center">
+
+  <img src="https://i.imgur.com/tx8EuNp.png" title="hover text">
+</p>
