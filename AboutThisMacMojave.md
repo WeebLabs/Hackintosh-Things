@@ -56,10 +56,10 @@ We will now edit the 'macOS Mojave' text.  This is the most sophisticated of the
 Download the 'optool' utility from the list of resources above and move it to your 'Modified' folder.
 
 Open a Finder window, select 'Go' from the menu bar and choose 'Go to Folder'. 
-Enter '/System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A' and click 'Go'. Locate the file named 'AppleSystemInfo'.  Create two duplicates of this file, placing one of them in your 'Originals' folder and the other in your 'Modified' folder.
+Enter '/Applications/Utilities/System Information.app/Contents/MacOS' and click 'Go'. Locate the file named 'System Information'.  Create two duplicates of this file, placing one of them in your 'Originals' folder and the other in your 'Modified' folder.
 
 Launch the Terminal and navigate to your 'Modified' folder.  If you do not know how to do this, type 'cd' followed by a space and then drag & drop your 'Modified' folder into the Terminal window.  Press return and you should now see the correct directory in your bash prompt.  You may wish to execute the 'ls -l' command in order to verify that all of the requisite files are present.
 
 <p align="center">
-  <img src="https://i.imgur.com/TVbGOy2.png" title="hover text">
+  <img src="https://i.imgur.com/SU81dKF.png" title="hover text">
 </p>
