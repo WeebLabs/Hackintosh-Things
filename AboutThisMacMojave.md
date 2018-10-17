@@ -129,4 +129,21 @@ Return to '/Applications/Utilities/System Information.app/Contents/MacOS' and co
 The 'macOS Mojave" text has now been changed and can be seen in the 'About This Mac' window.
 
 
-## Modifying The System Model
+## Modifying The Displayed SMBIOS Model
+
+Open a Finder window, select 'Go' from the menu bar and choose 'Go to Folder'. 
+Enter '~/Library/Preferences' and click 'Go'. Locate the file named 'com.apple.SystemProfiler.plist'.  Create two duplicates of this file, placing one of them in your 'Originals' folder and the other in your 'Modified' folder.
+
+Navigate to your 'Modified' folder and open 'com.apple.SystemProfiler.plist' using a text editor of your choice.
+
+<p align="center">
+  <img src="https://i.imgur.com/M4vdtPH.png" title="hover text">
+</p>
+
+Within this file, locate a string matching the model of Mac which is currently displayed in the 'About This Mac' window and replace it with any text of your choice.  For example, 'iMac (Retina 5K, 27-inch, Late 2015)' becomes 'Cygnus (Late 2018)'.
+
+When all desired changes have been made, select the 'File' menu and choose 'Save'. 
+
+Return to '~/Library/Preferences' and copy the 'com.apple.SystemProfiler.plist' file from your 'Modified' folder into this directory.  Enter your password when prompted and then click 'Replace'.
+
+The displayed SMBIOS model has now been changed and can be seen in the 'About This Mac' window.
