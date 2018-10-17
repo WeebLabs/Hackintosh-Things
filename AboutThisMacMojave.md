@@ -85,7 +85,7 @@ On the status bar at the bottom of the window, you will see a counter.  This cou
 
 There are two strings within this file which we can modify and it is important to understand the roles fulfilled by each of them.
 
-The first string of interest to us is 'macOS Mojave' and it is located at offset '600384'.  This is the string which will be printed to the 'About This Mac' window.
+The first string of interest to us is 'macOS Mojave' and it is located at offset '346037'.  This is the string which will be printed to the 'About This Mac' window.
 
 The second string of importance is 'macOS' and it is located at offset '342046'.  This string is responsible for determining which characters in the later 'macOS Mojave' string are printed using a bold font.  It must be edited to match the characters in the beginning of the 'macOS Mojave' string. In other words if the 'macOS Mojave" string is changed to 'nepOS Hyper', then this string must become 'nepOS'.
 
