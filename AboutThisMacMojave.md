@@ -12,6 +12,11 @@ The following tools will be required:
 - <a href="https://github.com/alexzielenski/ThemeEngine/releases/download/1.0.0(111)/ThemeEngine_111.zip">ThemeEngine</a>
 - Image Editor (Optional but recommended)
 
-Replacing the system image is a very simple task.  Navigate to '/Applications/Utilities', right-click the 'System Information' utility and choose 'Show Package Contents'.  From here, navigate to 'Contents/Resources' and locate the file names 'Assets.car'.
+Create two folders on your desktop or in another easily accessible directory.  Name one of these folders 'Originals' and the other 'Modified'.
 
-Create two duplicates of this file.  Place one on your desktop and the 
+We will first be replacing the system image, which is the simplest of these modifications.  Download ThemeEngine from the list of resources above and place it in your 'Applications' folder.
+
+Navigate to '/Applications/Utilities', right-click the 'System Information' utility and choose 'Show Package Contents'.  From here, navigate to 'Contents/Resources' and locate the file named 'Assets.car'.  Create two duplicates of this file, placing one in your 'Originals' folder and the other in your 'Modified' folder.
+
+Launch ThemeEngine, click the 'File' menu and choose 'Open'.  Navigate to your 'Modified' folder and open 'Assets.car'. 
+
