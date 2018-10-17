@@ -151,3 +151,4 @@ Return to '~/Library/Preferences' and copy the 'com.apple.SystemProfiler.plist' 
 The displayed SMBIOS model has now been changed and can be seen in the 'About This Mac' window.
 
 ## Editing The Displayed CPU Model
+Currently writing.
