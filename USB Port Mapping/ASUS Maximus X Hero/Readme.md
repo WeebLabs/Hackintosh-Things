@@ -1,5 +1,5 @@
 The AML file is the compiled and ready-to-use SSDT, while the DSL file is a template for this motherboard containing all potential ports.  If you require specific internal USB ports, then the DSL file is what you need.  Usage instructions are included as comments in said file.
-_______________________________________________________
+________________________________________________________
 
 USB port mapping SSDTs for various motherboards. To be used in conjuction with USBInjectAll.kext.
 
