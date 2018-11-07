@@ -21,6 +21,17 @@
 // Change the UsbConnector or portType as needed to match your
 // USB configuration.  IOJones is recommended.
 //
+// The format for each port is as follows:
+//
+// "XXXX", Package()
+// {
+//    "UsbConnector", X,
+//    "port", Buffer() { X, 0, 0, 0 },
+// },
+//
+// To remove a port, you must delete the entirety of the ""XXXX", Package()" 
+// scope, leaving the surrounding syntax identical.
+//
 // When all desired changes have been made, use MaciASL to save this file as
 // an ACPI Machine Language Binary.  Place the resuting AML file in
 // '/EFI/Clover/ACPI/Patched', reboot to verify expected results
