@@ -1,3 +1,6 @@
+The AML file is the compiled and ready-to-use SSDT, while the DSL file is a template for this motherboard containing all potential ports.  If you require specific internal USB ports, then the DSL file is what you need.  Usage instructions are included as comments in said file.
+_______________________________________________________
+
 USB port mapping SSDTs for various motherboards. To be used in conjuction with USBInjectAll.kext.
 
 By default, OS X restricts the maximum number of addressable USB ports to fifteen. RehabMan's USBInjectAll extension attempts to inject all potential ports for a given chipset and in doing so, exceeds this limit. Without further modification, the result would typically be that some of a user's ports are functional (those injected below the limit) but not others.
